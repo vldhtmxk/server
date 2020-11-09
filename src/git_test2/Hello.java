@@ -4,8 +4,8 @@ public class Hello {
     
     String message = "æ»≥Á«œººø‰";
 
-    public String say() {
-        return message;
+    public void say() {
+        System.out.println(message);
     }
 
 }
